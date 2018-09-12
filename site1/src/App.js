@@ -11,6 +11,18 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>This is Site One!</h1>
+          <ul>
+            <li>
+              <A href="https://twositesonerepo-site2.netlify.com/">
+                See Site Two
+              </A>
+            </li>
+            <li>
+              <A href="https://github.com/sw-yx/TwoSitesOneRepo/">
+                See Source for both
+              </A>
+            </li>
+          </ul>
           <img
             src={logo}
             onClick={this.toggleToggle}
